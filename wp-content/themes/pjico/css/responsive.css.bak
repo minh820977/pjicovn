@@ -1,0 +1,571 @@
+/* Begin resposive */
+
+@media screen and (max-width: 1199px){
+	div {
+		max-width:100%;
+	}
+	.left-header-menu>li>a{
+		padding-left:13px;
+		padding-right:13px;
+	}
+	.looking-for{
+		margin-left:0;
+	}
+	.customer-services .phone-nums .mobile-phone{
+		font-size:25px;
+	}
+	.customer-services .phone-nums a{
+		font-size:20px;
+	}
+	.find-now .txt{
+		margin-bottom:5px;		
+	}
+	.find-now a{
+		margin-bottom:5px;		
+	}
+	.find-now .txt br{
+		display:none;
+	}
+	.home-link{
+		margin-right:0;
+	}
+}
+@media screen and (max-width: 1080px){
+	.find-more{
+		width: 132px;
+		height: 32px;
+		line-height:32px;
+	}
+}
+@media screen and (max-width: 991px){
+	.logo-wrap .inner{
+		background-image:none;
+	}
+	.header-menu>li>a{
+		padding-left:6px;
+		padding-right:6px;
+		font-size:14px;
+	}
+	.home-link{
+		margin-right:0;
+	}
+	.home-link img{
+		width:28px;
+		height:auto;
+	}
+	.header-menu>li>a {
+		height: auto;
+		line-height: initial;
+	}
+	.container{
+		width:100%;
+		padding-left:12px;
+		padding-right:12px;
+	}
+	.tnp-subscription {
+    	display: block;
+    	margin: 0px;
+    	width: 100%;
+	}
+	.email .tnp-subscription div.tnp-field {
+    margin-bottom: 10px;
+	}
+	.email .tnp-subscription input[type=email]{		
+	    height: 50px;
+	    display: inline;
+	    box-sizing: border-box;
+	}
+	.email .tnp-subscription input.tnp-submit{
+		float: right;
+	    display: inline;
+	    width: 120px;
+	}
+}
+@media screen and (max-width: 963px){
+	.footer-nav ul, .socials{
+		display:block;
+		margin-bottom:5px;
+		text-align:center;
+	}
+	.footer-nav ul li:last-child a:after{
+		content:"";
+	}
+    .insurance-product-area .product-meta h3 a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 937px){
+	.footer-bar-area .row{
+		margin: 0 0px;
+	}
+	.footer-bar-area .footer-bar-item{
+		padding:0 20px;
+	}
+}
+@media screen and (min-width: 913px){
+	.mobile-menu-wrap{
+		display:none;
+	}
+}
+@media screen and (max-width: 912px){
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu > li.mega-menu-item > a.mega-menu-link{
+		padding-left:13px!important;
+		padding-right:13px!important;
+	}
+	#header .mega-menu-wrap .mega-menu > li.mega-menu-item > a.mega-menu-link {
+		height: auto !Important;
+		line-height: initial !Important;
+	}
+	#header .container{
+		padding-left:0;
+		padding-right:0;
+	}
+	/* begin mobile-menu */
+	.mobile-menu-wrap header{
+		display:block;
+		box-shadow: 0 5px 10px -5px #666;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		padding:10px 0;
+		text-align:center;
+	}
+	.topNav,.logo-wrap{
+		display:none;
+	}
+	.mobile-menu-wrap .toggle-menu{
+		text-align:left;
+	}
+	.logo{
+		display:inline-block;
+		vertical-align:middle;
+	}
+	.top-looking-for,	
+	.mobile-menu-wrap .toggle-menu{
+		display:inline-block;
+		vertical-align:middle;
+		width:34%;
+	}
+	.top-looking-for{
+		text-align:right;
+	}
+	.mobile-menu-wrap  .toggle-menu i{
+		font-size:28px;
+		color:#007dd2;
+	}
+	.mobile-menu{
+		background-color:#FFFFFF;
+		text-align:left;
+		margin-top:10px;
+	}
+	#header{
+		height:auto;
+		line-height:initial;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.mobile-menu>.menu-menu-chinh-container a{
+		padding:10px 0;
+		padding-left: 10px;
+		font-family: Roboto;
+        font-weight: 700;
+		font-size: 14px;
+		color: #f68b1f;
+		display: block;
+		text-decoration: none;
+	}
+	.mobile-menu>.menu-menu-chinh-container>ul>li{
+		border-bottom:1px solid rgba(204,204,204,0.75);
+	}
+	
+	.mobile-menu>.menu-menu-chinh-container>ul>li>ul>li{
+		border-top:1px solid #ccc;
+	}
+	.mobile-menu>.menu-menu-chinh-container>ul>li>a:hover,
+	.mobile-menu>.menu-menu-chinh-container>ul>li>a.active{
+		color:#0060af;
+	}
+	.mobile-menu>.menu-menu-chinh-container>ul>li>ul{
+		display:none;
+		padding-left: 10px;
+		list-style:none;
+	}
+	.mega-menu-wrap{
+		width:100%!important;
+	}
+	.mega-menu-wrap .mega-menu > li.mega-menu-item{
+		display:block!important;
+		border-bottom: 1px solid rgba(204,204,204,0.5)!important;
+		padding-bottom: 8px;
+    	padding-top: 8px;
+	}
+	#header .mega-menu-wrap ul li ul.mega-sub-menu>li>a{
+		padding: 10px 0!important;
+		font-size: 14px!important;
+	}
+	#header .mega-menu-wrap .mega-menu > li.mega-menu-item > a.mega-menu-link{
+		padding: 10px 0!important;
+		padding-left: 10px!important;
+		font-size: 14px!important;
+		font-weight: 500;
+		color: #171c21;
+		display: block;
+		text-decoration: none;
+		border:none!important;
+	}
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu li.mega-menu-item > ul.mega-sub-menu,
+	#mega-menu-wrap-right_main_menu #mega-menu-right_main_menu li.mega-menu-item > ul.mega-sub-menu{
+		display:none;
+		visibility:visible;
+	}
+	.mega-menu-wrap ul li ul.mega-sub-menu{
+		position:static!important;
+		width:100%!important;
+		display:none;
+		padding:0!important;
+		padding-left:20px!important;
+		padding-right:20px!important;
+	}
+	
+	#mega-menu-wrap-left_main_menu,
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu, 
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu ul.mega-sub-menu,
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu li.mega-menu-item, 
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu a.mega-menu-link{
+		overflow:hidden!important;
+	}
+	.mega-menu-wrap > ul > li.mega-menu-item-has-children:hover::before {
+		content: ""!important;
+	}
+	.mega-menu-wrap ul li ul.mega-sub-menu>li {
+		border-bottom: none!important;
+		border-top:1px solid rgba(204,204,204,0.5)!important;
+	}
+	/* end mobile-menu */
+}
+@media screen and (max-width: 900px){
+	.products-area  >.container>.body>.row{
+		margin:0 -10px;
+	}
+	.products-area .product-col{
+		padding:0 10px;
+	}
+	#sidebar .inner,
+	.services{
+		padding-left:10px;
+	}
+	#main-product-content .inner {
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 892px){
+	.footer-bar-area .row{
+		margin: 0 0px;
+	}
+	.footer-bar-area .footer-bar-item{
+		padding:0 5px;
+	}
+	.looking-for {
+		position:relative;
+	}
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px){
+	.get-more{
+		display:block;		
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+	.find-more{
+		display:none;
+	}
+	.container{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.banner-slider-area{
+		margin-bottom:0px;
+	}
+	.insurance-product-area .product-item,
+	.footer-bar-area .footer-bar-item{
+		width:100%;
+		margin-bottom:40px;
+		border: none;
+	}
+	.news-area .news-item{
+		width:100%;
+	}
+	.news-block{
+		padding-right:0px!important;
+	}
+	.news-area{
+		margin-bottom:0;
+		padding: 40px 0px 10px 0px;
+	}
+	.footer-bar-area .row{
+		margin:0 0px;
+	}
+	.footer-bar-area .footer-bar-item{
+		padding: 0 10px;
+		margin-bottom:20px;
+		border: none;
+	}
+	.footer-nav,
+	.contact-info{
+		display:block;
+		width:100%;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.products-area .product-col{
+		width:100%!important;	
+	}
+	.products-area .product-col .inner{
+		padding:0 10px;
+	}
+	.sub-product-area .body{
+		padding-top:20px;
+	}
+	.sidebar-box{
+		margin-bottom:20px;
+	}
+	.sub-product-area{
+		margin-top:40px;
+		margin-bottom:20px;
+	}
+	.sub-product-area .body{
+		padding-bottom:20px;
+	}
+	.insurrance .row,
+	.list-news .row{
+		margin:0 -5px;
+	}
+	.insurrance .row .col-item,
+	.list-news .row .col-item{
+		padding: 0 5px;
+	}
+	.single-san-pham  .sub-product-area .body,
+	.sub-product-area .body{
+		padding:20px;
+	}
+	.main-contact-section .contact-info,
+	.contact-form-wrap{
+		text-align:left;
+		width:100%;
+		margin-bottom:10px;
+	}
+	.contact-form-wrap .inner{
+		margin: 20px 0 20px;
+		padding: 20px 15px;
+	}
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-columns-1-of-6{
+		width:33.333333333333%;
+		margin-bottom:20px;
+	}
+	.email-block{
+		padding: 30px 30px 40px 30px;
+	}
+	.email-block .email-title{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.email-block .email-form{
+		width: 100%;
+	}
+	.email-block .tnp-field{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.insurance-product-area{
+		padding: 50px 0px 40px 0px;
+	}
+	.email {
+	    margin-bottom: 10px;
+	    width: 85%;
+	}
+	.footer-bar-area .customer-services {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 95px;
+    border: none;
+    }
+}
+@media screen and (max-width: 670px){
+	.features-area .block-item {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.features-area .row{
+		margin: 0 10px;
+	}
+	.row{
+		margin-left: unset;
+		margin-right: unset;
+	}
+}
+@media screen and (max-width: 656px){
+	.top-looking-for, .mobile-menu-wrap .toggle-menu {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 570px){
+	.bx-controls{
+		display:none;
+	}
+	.news-content .row .news-content-item{
+		width:100%;
+		margin-bottom: 30px;
+	}
+	.features-area .block-item {
+		width:50%;
+	}
+	.features-area{
+		margin-bottom:0;
+		padding-bottom: 10px;
+	}
+	.features-area .block-item :last-child{
+		margin-bottom:20px;
+	}
+}
+@media screen and (max-width: 665px){
+	.nav-tabs>li>a{
+		font-size:16px;
+		padding: 10px;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+		background-image: linear-gradient(135deg, rgba(0,125,210,1.0), rgba(42,150,242,1.0));
+	}
+}
+@media screen and (max-width: 529px){
+	.top-looking-for, .mobile-menu-wrap .toggle-menu {
+		width: 26%;
+	}
+}
+@media screen and (max-width: 501px){
+	.footer-bar-area .footer-bar-item,
+	.insurrance .row .col-item,
+	.list-news .row .col-item,
+	.pagination-wrap{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.insurrance .post{
+		padding-top:20px;
+		padding-bottom:0;
+	}
+	.list-news .post{
+		padding-bottom: 0;
+		margin-bottom: 20px;
+	}
+	.insurrance  .com-back, .list-news  .com-back{
+		margin-top:10px;
+	}
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-columns-1-of-6{
+		width:50%;
+	}
+    .insurance-product-area .product-meta h3 a{
+        font-size:14px;
+    }
+    .insurance-product-area .row .product-item .inner:hover .product-meta{
+        padding-top: 30px;
+    }
+    .insurance-product-area .product-meta p{
+        transition: height 200ms, opacity 200ms linear;
+        transition-delay: 100ms;
+    }
+    .view-all{
+        transition: height 200ms, opacity 200ms linear;
+        transition-delay: 100ms;
+    }
+	.features-area .body{
+		margin-top: 80px;
+	}
+}
+@media screen and (max-width: 478px){
+	.nav-tabs{
+		padding-bottom:6px;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+		border-radius:7px;
+	}
+	.nav-tabs>li:first-child.active>a, .nav-tabs>li:first-child.active>a:focus, .nav-tabs>li:first-child.active>a:hover, .nav>li:first-child>a:focus, .nav>li:first-child>a:hover{
+		border-radius:3px;
+	}	
+}
+@media screen and (max-width: 470px){
+	.features-area .block-item {
+		width:100%;
+	}
+	.features-area .block-item :last-child{
+		margin-bottom:20px;
+	}
+}
+@media screen and (max-width: 450px){
+	.mobile-menu-wrap .toggle-menu{
+		padding-left:10px;
+	}
+	.top-looking-for{
+		padding-right:10px;
+	}
+}
+@media screen and (max-width: 435px){
+	.contact-form-wrap  label{
+		width:auto;
+		display:block;
+	}
+	.contact-form-wrap .wpcf7-form-control-wrap{
+		width:100%;
+	}
+	.contact-form-wrap p{
+		margin-bottom:0;
+	}
+}
+@media screen and (max-width: 424px){
+	.top-looking-for, .mobile-menu-wrap .toggle-menu {
+		width: 22%;
+	}
+}
+@media screen and (max-width: 363px){
+	.top-looking-for, .mobile-menu-wrap .toggle-menu {
+		width: 18%;
+	}
+}
+@media screen and (max-width: 318px){
+	.top-looking-for, .mobile-menu-wrap .toggle-menu {
+		width: 15%;
+	}
+}
+@media screen and (max-width: 413px){
+	.why h3{
+		font-size: 28px;
+		height:auto;
+		line-height:initial;
+		padding:10px;
+		background-color:transparent;
+		background-repeat:repeat;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.insurance-product-area .row .product-item{
+		width:100%;
+	}
+	.single-san-pham  .sub-product-area .body{
+		padding:10px;
+	}
+	#mega-menu-wrap-left_main_menu #mega-menu-left_main_menu > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-columns-1-of-6{
+		width:100%;
+	}	
+}
+@media screen and (max-width: 289px){
+	.nav-tabs {
+		padding-bottom: 9px;
+	}
+}
+/* End resposive */

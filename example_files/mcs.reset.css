@@ -1,0 +1,97 @@
+/****
+Reset MixColors
+****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body{
+	font-size: 14px;
+	color: #757575;
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	border:none;
+	max-width:100%;	
+	height: auto;
+}
+a{
+	color:#2196F3;
+}
+a:hover{
+	color: #c9a96e;
+	text-decoration:none;
+}
+a:focus{
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+.clear {
+	clear:both;
+}	
+button,input[type="submit"] {
+	cursor:pointer;
+}
+a, 
+button, 
+input {
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+}
+button,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+textarea:focus {
+	border-color: #c9a96e;
+	outline: none;
+}
+table {
+	margin:15px 0;
+	width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table tbody tr td, 
+table tbody tr th, 
+table tfoot tr td, 
+table tfoot tr th, 
+table thead tr td, 
+table thead tr th {
+	border: 1px solid #ccc;
+	padding:5px;
+}
+/* Reset WP */
+img.aligncenter {
+	display:block;
+	margin:0 auto;
+}
+/* Reset chat facebook */
+.fb_iframe_widget {
+	display:block !important;
+}
+.fb_iframe_widget span {
+	display: block !important;
+	width:100% !important;
+}
+.fb_iframe_widget iframe {
+    position: static !important;
+    width: 100% !important;
+}
